@@ -8,7 +8,7 @@ export default {
       },
       {
         title: "About Us",
-        link: "/abount-us"
+        link: "/about"
       },
       {
         title: "Donates",
