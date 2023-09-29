@@ -1,15 +1,25 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h2>Slots</h2>
+
+  <AboutLayout>
+      <template #introduction>
+        introduction
+      </template>
+      <template #about>
+        about about
+      </template>
+      <template #rewards>
+
+      </template>
+  </AboutLayout>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style></style>
+<script>export default {
+  components: {}
 }
-</style>
+</script>
+
+<script setup>
+import AboutLayout from "./../components/about/AboutLayout.vue";
+</script>
