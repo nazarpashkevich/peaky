@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import HomeIntro from '../components/home/HomeIntro.vue'
+import CharacterList from '../components/home/CharacterList.vue'
+import FeedbackSection from '../components/home/FeedbackSection.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HomeIntro />
+    <CharacterList />
+    <FeedbackSection />
   </main>
 </template>
