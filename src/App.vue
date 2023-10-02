@@ -7,13 +7,15 @@ import AuthBlock from './components/AuthBlock.vue'
 <template>
   <header>
     <div class="w-full h-20 bg-slate-500 flex px-8 lg:px-24">
-      <img src="./assets/images/logo.png" class="my-auto h-16"/>
+      <a href="/" class="my-auto">
+        <img src="./assets/images/logo.png" class="w-56"/>
+      </a>
       <MainMenu class="ml-24 mr-auto hidden lg:block"/>
       <AuthBlock class="ml-auto my-auto"/>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView/>
 
   <footer>
     <div class="w-full h-auto bg-slate-500 flex px-24">
